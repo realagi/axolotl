@@ -292,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table Of Contents</h2>
    
   <ul>
-  <li><a href="#axolotl" id="toc-axolotl" class="nav-link active" data-scroll-target="#axolotl">Axolotl</a>
+  <li><a href="#axolotl-realagi-flavored" id="toc-axolotl-realagi-flavored" class="nav-link active" data-scroll-target="#axolotl-realagi-flavored">Axolotl (RealAGI Flavored)</a>
   <ul class="collapse">
   <li><a href="#axolotl-supports" id="toc-axolotl-supports" class="nav-link" data-scroll-target="#axolotl-supports">Axolotl supports</a></li>
   <li><a href="#quickstart" id="toc-quickstart" class="nav-link" data-scroll-target="#quickstart">Quickstart ⚡</a>
@@ -331,7 +331,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table Of Contents</h2>
    
   <ul>
-  <li><a href="#axolotl" id="toc-axolotl">Axolotl</a>
+  <li><a href="#axolotl-realagi-flavored" id="toc-axolotl-realagi-flavored">Axolotl (RealAGI Flavored)</a>
   <ul>
   <li><a href="#axolotl-supports" id="toc-axolotl-supports">Axolotl supports</a></li>
   <li><a href="#quickstart" id="toc-quickstart">Quickstart ⚡</a>
@@ -360,8 +360,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   </ul>
 </nav>
-<section id="axolotl" class="level1">
-<h1>Axolotl</h1>
+<section id="axolotl-realagi-flavored" class="level1">
+<h1>Axolotl (RealAGI Flavored)</h1>
 <p><img src="https://github.com/axolotl-ai-cloud/axolotl/actions/workflows/tests.yml/badge.svg" class="img-fluid" alt="tests"> <img src="https://github.com/axolotl-ai-cloud/axolotl/actions/workflows/tests-nightly.yml/badge.svg" class="img-fluid" alt="tests-nightly"> <img src="https://github.com/axolotl-ai-cloud/axolotl/actions/workflows/multi-gpu-e2e.yml/badge.svg" class="img-fluid" alt="multigpu-semi-weekly tests"></p>
 <p>Axolotl is a tool designed to streamline the fine-tuning of various AI models, offering support for multiple configurations and architectures.</p>
 <p>Features: - Train various Huggingface models such as llama, pythia, falcon, mpt - Supports fullfinetune, lora, qlora, relora, and gptq - Customize configurations using a simple yaml file or CLI overwrite - Load different dataset formats, use custom formats, or bring your own tokenized datasets - Integrated with xformer, flash attention, <a href="https://github.com/linkedin/Liger-Kernel">liger kernel</a>, rope scaling, and multipacking - Works with single GPU or multiple GPUs via FSDP or Deepspeed - Easily run with Docker locally or on the cloud - Log results and optionally checkpoints to wandb, mlflow or Comet - And more!</p>
@@ -1141,7 +1141,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/axolotl-ai-cloud\.github\.io\/axolotl\/");
+      var filterRegex = new RegExp("https:\/\/realagi\.github\.io\/axolotl\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
